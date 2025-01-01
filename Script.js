@@ -26,8 +26,19 @@ function initializeTable() {
       row.innerHTML = `
                       <td>${truckNumber}</td>
                       <td><input type="text" placeholder="From"></td>
-                      <td><input type="text" placeholder="To"></td>
                       <td>
+                      
+                          <select>
+                              <option value="Load">Going to Load</option>
+                              <option value="Unload">Going for Unload</option>
+                          </select>
+                      </td>
+                      <td>
+                        <input type="text" placeholder="To">
+                        <input type="text" placeholder="Company">
+                      </td>
+                      <td>
+                      
                           <select>
                               <option value="Load">Going to Load</option>
                               <option value="Unload">Going for Unload</option>
